@@ -60,18 +60,18 @@ const Media = () => {
             BEST SKILL ON
           </h2>
           <div className="flex gap-4">
-          
+          <span className="bannerIcon">
+              <SiPhp />
+            </span>
 
             <span className="bannerIcon">
               <FaReact />
             </span>
-            
             <span className="bannerIcon">
               <SiTailwindcss />
             </span>
-            <span className="bannerIcon">
-              <SiPhp />
-            </span>
+            
+            
           </div>
         </div>
       </div>

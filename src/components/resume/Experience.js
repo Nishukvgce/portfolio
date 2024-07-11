@@ -9,12 +9,22 @@ const Experience = () => {
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       className="py-12 font-titleFont flex gap-20"
     >
-      {/* <div>
+     <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+          <p className="text-sm text-designColor tracking-[4px]"></p>
+          <h2 className="text-4xl font-bold">Project Experience</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div  className="mt-14  h-[1000px]  ">  
+        {/* <div className="mt-14  h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10"> */}
+          <ResumeCard
+            title="lenskart"
+            // subTitle="Google Out Tech - (2024 - Present)"
+            result="2024"
+            des="The project likely involves developing features for their website or app, such as an interactive p
+            roduct catalog, a virtual try-on feature using augmented reality, user authentication, and a streamlined checkout process."
+          />
+          </div>
+        {/* <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Sr. Software Engineer"
             subTitle="Google Out Tech - (2017 - Present)"
@@ -33,9 +43,9 @@ const Experience = () => {
             result="Oman"
             des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
           />
-        </div>
+        </div> */}
       </div>
-      <div>
+      {/* <div>
         <div className="flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
           <h2 className="text-4xl font-bold">Trainer Experience</h2>
@@ -60,7 +70,7 @@ const Experience = () => {
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
         </div>
-      </div> */}
+      </div>  */}
     </motion.div>
   );
 };

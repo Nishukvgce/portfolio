@@ -1,13 +1,14 @@
 import React from 'react'
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import {logo} from "../../assets/index"
+import { BsGithub } from 'react-icons/bs';
 
 const Footer = () => {
   return (
     <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
       <div className="w-full h-full flex flex-col gap-8">
         {/* <img className="w-32" src={logo} alt="logo" /> */}
-        <div className="flex gap-4">
+        {/* <div className="flex gap-4">
           <span className="bannerIcon">
             <FaFacebookF />
           </span>
@@ -17,7 +18,48 @@ const Footer = () => {
           <span className="bannerIcon">
             <FaLinkedinIn />
           </span>
-        </div>
+        </div> */}
+
+
+
+<div className="flex gap-4">
+          
+          <div className="flex gap-4">
+              <a href="https://www.linkedin.com/in/nishmitha-s123/" target="_blank" rel="noopener noreferrer">
+              <span className="bannerIcon">
+                <FaLinkedinIn />
+              </span>
+              </a>
+  
+              </div>
+              {/* <div className="flex gap-4">
+              <a href="https://github.com/Nishukvgce" target="_blank" rel="noopener noreferrer">
+              <span className="bannerIcon">
+                <FaGithub />
+              </span>
+              </a>
+  
+              </div> */}
+
+
+               <div className="flex gap-4">
+              <a href="https://github.com/Nishukvgce" target="_blank" rel="noopener noreferrer">
+              <span className="bannerIcon">
+                <BsGithub />
+              </span>
+              </a>
+  
+              </div>
+              <div className="flex gap-4">
+              <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <span className="bannerIcon">
+                <FaFacebookF />
+              </span>
+              </a>
+  
+              </div>
+  
+              </div>
       </div>
       <div className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">

@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
+import { BsGithub } from 'react-icons/bs';
 
 const ContactLeft = () => {
   return (
@@ -28,9 +29,9 @@ const ContactLeft = () => {
       </div>
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
-        <div className="flex gap-4">
+        {/* <div className="flex gap-4">
           <span className="bannerIcon">
-            <FaFacebookF />
+             <FaLinkedinIn />
           </span>
           <span className="bannerIcon">
             <FaTwitter />
@@ -38,7 +39,47 @@ const ContactLeft = () => {
           <span className="bannerIcon">
             <FaLinkedinIn />
           </span>
-        </div>
+        </div> */}
+
+
+<div className="flex gap-4">
+          
+          <div className="flex gap-4">
+              <a href="https://www.linkedin.com/in/nishmitha-s123/" target="_blank" rel="noopener noreferrer">
+              <span className="bannerIcon">
+                <FaLinkedinIn />
+              </span>
+              </a>
+  
+              </div>
+              {/* <div className="flex gap-4">
+              <a href="https://github.com/Nishukvgce" target="_blank" rel="noopener noreferrer">
+              <span className="bannerIcon">
+                <FaGithub />
+              </span>
+              </a>
+  
+              </div> */}
+
+
+               <div className="flex gap-4">
+              <a href="https://github.com/Nishukvgce" target="_blank" rel="noopener noreferrer">
+              <span className="bannerIcon">
+                <BsGithub />
+              </span>
+              </a>
+  
+              </div>
+              <div className="flex gap-4">
+              <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <span className="bannerIcon">
+                <FaFacebookF />
+              </span>
+              </a>
+  
+              </div>
+  
+              </div>
       </div>
     </div>
   );

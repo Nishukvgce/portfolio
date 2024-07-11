@@ -21,13 +21,13 @@ const Projects = () => {
           des=" "
           src={projectOne}
         />
-        {/* <ProjectsCard
+        {/* {/* <ProjectsCard
           title="E-commerce Website"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectTwo}
-        />
-        <ProjectsCard
+        /> */}
+        {/* <ProjectsCard
           title="Chatting App"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
@@ -38,13 +38,13 @@ const Projects = () => {
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectThree}
-        />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
         /> */}
+        <ProjectsCard
+          title="Library management System"
+          // des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          //     Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          src={projectThree}
+        /> 
         <ProjectsCard
           title="E-commmerce Website"
           // des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
