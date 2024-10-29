@@ -19,7 +19,7 @@ const Education = () => {
           <ResumeCard
             title="BE"
             subTitle="KVG College of Engineering  (2021 - 2025)"
-            result="8.1 CGPA"
+            result="8.6 CGPA"
             des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
           />
           <ResumeCard

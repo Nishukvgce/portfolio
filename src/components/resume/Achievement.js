@@ -18,10 +18,10 @@ const Achievement = () => {
         </div>
         <div className="mt-14 w-full h-[1000px]">
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            title="Achievements"
+            subTitle="NSS Volunteer Activities"
+            // result="Success"
+            des="As an NSS volunteer, I guided students in schools, participated in Swachhata Abhiyan, conducted city clean-up drives, formed human chains, and organized tree planting activities."
           />
           </div>
 
